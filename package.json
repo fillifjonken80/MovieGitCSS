@@ -7,7 +7,7 @@
     "styles": "lessc styles.less distribution/styles.css",
     "start:dev": "webpack-dev-server",
     "bundle": "webpack",
-    "copyindex": "cp index.html distribution/index.html",
+    "copyindex": "cp app.html distribution/index.html",
     "build": "npm run bundle && npm run styles && npm run copyindex",
     "lintless": "stylelint styles.less",
     "lintjs": "eslint ."
