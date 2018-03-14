@@ -1,5 +1,5 @@
 let $ = require("jQuery");
-import {movieData} from './data';
+import {movieData} from "./data";
 
 function renderMovie(movie){
     // document.querySelector(".pic").setAttribute("src",movie.img);
