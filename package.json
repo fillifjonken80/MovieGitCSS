@@ -1,0 +1,33 @@
+{
+  "name": "moviecss",
+  "version": "1.0.0",
+  "description": "MovieProject",
+  "main": "code.js",
+  "scripts": {
+    "styles": "lessc styles.less distribution/styles.css",
+    "start:dev": "webpack-dev-server",
+    "bundle": "webpack",
+    "copyindex": "cp index.html distribution/index.html",
+    "build": "npm run bundle && npm run styles && npm run copyindex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fillifjonken80/MovieGitCSS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fillifjonken80/MovieGitCSS/issues"
+  },
+  "homepage": "https://github.com/fillifjonken80/MovieGitCSS#readme",
+  "devDependencies": {
+    "less": "^3.0.1",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-notifier": "^1.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}

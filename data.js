@@ -1,4 +1,4 @@
-let movieData={
+export const movieData={
 title:"Dum och Dummare",
 actors:["Jeff Daniels","Jim Carrey"],
 info:"Komedi från 1994 av Peter Farrelly och Bobby Farrelly med Jim Carrey och Jeff Daniels.",
